@@ -243,20 +243,22 @@
 //   console.log(element)
 // })
 
-// var data = [10,20,30,40]
-// var output = data.map(function (element)
-// {
-//   return element + 1;
-
-// }
-// )
-// console.log(output);
-
 var data = [10,20,30,40]
-var output = data.filter(function (element)
+var output = data.map(function (element)
 {
-  return element > 20 ;
+  return element + 1;
 
 }
 )
 console.log(output);
+//  based on the condition filter will return the value 
+// filter some values based on condition and will return an array.
+
+// var data = [10,20,30,40]
+// var output = data.filter(function (element)
+// {
+//   return element > 20 ;
+
+// }
+// )
+// console.log(output);
