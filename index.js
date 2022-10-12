@@ -243,10 +243,19 @@
 //   console.log(element)
 // })
 
+// var data = [10,20,30,40]
+// var output = data.map(function (element)
+// {
+//   return element + 1;
+
+// }
+// )
+// console.log(output);
+
 var data = [10,20,30,40]
-var output = data.map(function (element)
+var output = data.filter(function (element)
 {
-  return element + 1;
+  return element > 20 ;
 
 }
 )
