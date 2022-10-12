@@ -232,3 +232,14 @@
 
 // var data = 1;
 // console.log(Array.isArray(data));
+
+// map() is used to iterate array of values
+// simply i want to iterate and print the values we 
+// use map() function.
+
+var data = [1,2,3,4]
+data.map(function(element)
+{
+  console.log(element)
+})
+
