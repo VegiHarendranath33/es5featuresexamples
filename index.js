@@ -225,5 +225,10 @@
 
 // is Array Example
 
-var data = 1;
-console.log(Array.isArray(data));
+
+
+// var data = [1,2,3,4];
+// console.log(Array.isArray(data));
+
+// var data = 1;
+// console.log(Array.isArray(data));
