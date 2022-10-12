@@ -269,7 +269,7 @@ var data  = [20,30,40,50]
 var output = data.every
 (function(element)
 {
- return element>2;
+ return element>20;
 })
 
 console.log(output)
