@@ -237,9 +237,17 @@
 // simply i want to iterate and print the values we 
 // use map() function.
 
-var data = [1,2,3,4]
-data.map(function(element)
-{
-  console.log(element)
-})
+// var data = [1,2,3,4]
+// data.map(function(element)
+// {
+//   console.log(element)
+// })
 
+var data = [10,20,30,40]
+var output = data.map(function (element)
+{
+  return element + 1;
+
+}
+)
+console.log(output);
