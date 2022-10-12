@@ -265,8 +265,11 @@
 
 //for Each is not going to return any value
 
-var data  = [200,300,400,500]
-data.forEach(function (element)
+var data  = [20,30,40,50]
+var output = data.every
+(function(element)
 {
-  console.log(element)
+ return element>2;
 })
+
+console.log(output)
