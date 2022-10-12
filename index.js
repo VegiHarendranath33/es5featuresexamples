@@ -243,14 +243,14 @@
 //   console.log(element)
 // })
 
-var data = [10,20,30,40]
-var output = data.map(function (element)
-{
-  return element + 1;
+// var data = [10,20,30,40]
+// var output = data.map(function (element)
+// {
+//   return element + 1;
 
-}
-)
-console.log(output);
+// }
+// )
+// console.log(output);
 //  based on the condition filter will return the value 
 // filter some values based on condition and will return an array.
 
@@ -262,3 +262,11 @@ console.log(output);
 // }
 // )
 // console.log(output);
+
+//for Each is not going to return any value
+
+var data  = [200,300,400,500]
+data.forEach(function (element)
+{
+  console.log(element)
+})
