@@ -265,11 +265,11 @@
 
 //for Each is not going to return any value
 
-var data  = [20,30,40,50]
-var output = data.every
-(function(element)
-{
- return element>20;
-})
+// var data  = [20,30,40,50]
+// var output = data.every
+// (function(element)
+// {
+//  return element>20;
+// })
 
-console.log(output)
+// console.log(output)
