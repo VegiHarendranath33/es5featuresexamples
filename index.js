@@ -273,3 +273,14 @@
 // })
 
 // console.log(output)
+
+// For Each Example 
+
+// var  data  = [34,35,36]
+// data.forEach(function (element )
+
+// {
+//   console.log(element)
+// })
+
+// Output is 34 35 36 
