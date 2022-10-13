@@ -292,10 +292,15 @@
 // })
 // console.log(output)
 
-var data  = [1,2,3,4]
-var output = data.some(function (element)
-{
-  return element > 3
+// var data  = [1,2,3,4]
+// var output = data.some(function (element)
+// {
+//   return element > 3
 
-})
-console.log(output)
+// })
+// console.log(output)
+
+//for getting the specific index of the value we are using indexof()
+
+var data = [1,2,3,4]
+console.log(data.indexOf(4))
